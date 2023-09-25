@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./api/",
+        "paths": { "*": ["types/*"]},
+        "outDir": "./build/",
+        "module": "commonJS",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "target": "es6",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "plugins": [
+            {
+                "name": "tslint-language-service"
+            }
+        ],
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true
+    },
+    "angularCompilerOptions" : {
+        "enableI18nLegacyMessageIdFormat": false,
+        "strictInjectionParameters": true,
+        "strictInputAccessModifiers": true,
+        "strictTemplates": true
+    },
+    "include": [
+        "api/src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}

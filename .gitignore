@@ -1,0 +1,30 @@
+
+# Default ignored files
+.idea
+tools.iml
+release.properties
+pom.xml.releaseBackup
+target
+
+**/node_modules/**/*
+**/build/**/*
+**/certs/**/*
+# ignore DS_Store files
+**/.DS_Store
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+**/.DS_Store
+**/package-lock.json
+/api/node_modules/
+**/.nyc_output/*
+**/coverage/**
+**/.scannerwork
+node_modules/**/*
+build/**/*
+*.zip
+migration/__pycache__
+swagger.json

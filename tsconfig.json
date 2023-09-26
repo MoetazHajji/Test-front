@@ -15,7 +15,9 @@
             }
         ],
         "allowSyntheticDefaultImports": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "types": ["mocha","chai"],
+        "typeRoots": ["./node_modules/@types", "./typings"]
     },
     "angularCompilerOptions" : {
         "enableI18nLegacyMessageIdFormat": false,
@@ -24,7 +26,8 @@
         "strictTemplates": true
     },
     "include": [
-        "api/src/**/*"
+        "api/src/**/*",
+        "test/**/*"
     ],
     "exclude": [
         "node_modules"
